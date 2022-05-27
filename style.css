@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: 'Poppins';
-  src: url(/elements/fonts/Poppins-Light.ttf);
+  src: url(./elements/fonts/Poppins-Light.ttf);
 }
 
 header {
@@ -60,7 +60,7 @@ header {
 .social {
   align-items: flex-start;
   padding-top: 15px;
-  width: 117px;
+  width: 95px;
   height: 24px;
 }
 
