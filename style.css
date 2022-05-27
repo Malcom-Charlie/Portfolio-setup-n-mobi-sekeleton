@@ -1,3 +1,14 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url(/elements/fonts/Poppins-ExtraBold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url(/elements/fonts/Poppins-Light.ttf);
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -26,9 +37,10 @@ header {
   color: #172b4d;
   width: 327px;
   height: 150px;
+  font-family: 'Poppins';
+  font-weight: bold;
   font-style: normal;
-  font-size: 40px;
-  font-weight: 700;
+  font-size: 30px;
   line-height: 52px;
   top: 144px;
   left: 24px;
@@ -39,9 +51,8 @@ header {
   color: #344563;
   width: 327px;
   height: 146px;
-  font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
-  font-style: normal;
-  font-weight: 400;
+  padding-top: 60px;
+  font-family: 'Poppins';
   font-size: 16px;
   line-height: 24px;
 }
@@ -55,10 +66,11 @@ header {
 
 .parent2 {
   display: flex;
-  padding-top: 15px;
   justify-content: space-between;
-  width: 170.17px;
-  height: 20px;
-  top: 470px;
-  left: 24px;
+  list-style-type: none;
+  width: 170px;
+}
+
+ul {
+  padding-inline-start: 0px;
 }
