@@ -12,10 +12,10 @@
   display: flex;
   justify-content: space-between;
   width: 375px;
-  left: 0px;
-  right: 0px;
+  left: 0;
+  right: 0;
   top: 44px;
-  bottom: 0px;
+  bottom: 0;
 }
 
 .space {
@@ -23,21 +23,20 @@
 }
 
 .art1 {
-  color:#172B4D;
+  color: #172b4d;
   width: 327px;
-  height: 150px;
-  font-family: 'Poppins';
+  height: 150px;  
   font-style: normal;
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
   top: 144px;
   left: 24px;
-  bottom: 0px;
+  bottom: 0;
 }
 
 .art2 {
-  color:#344563;
+  color: #344563;
   width: 327px;
   height: 146px;
   font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
@@ -45,7 +44,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
- }
+}
 
 .social {
   align-items: flex-start;
@@ -59,8 +58,7 @@
   padding-top: 15px;
   justify-content: space-between;
   width: 170.17px;
-  height: 20px; 
+  height: 20px;
   top: 470px;
-  left: 24px; 
+  left: 24px;
 }
-
