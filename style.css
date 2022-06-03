@@ -77,6 +77,11 @@ ul {
   padding-inline-start: 0;
 }
 
+.works {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+}
+
 .card {
   display: flex;
   flex-direction: column;
