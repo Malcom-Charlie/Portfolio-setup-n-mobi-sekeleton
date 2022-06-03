@@ -9,59 +9,63 @@
   src: url(./elements/fonts/Poppins-Light.ttf);
 }
 
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+ 
 header {
   display: flex;
   justify-content: space-between;
-  width: 375px;
-  left: 0;
-  right: 0;
-  top: 44px;
-  bottom: 0;
+  width: 330px;
+  margin: auto;
+}
+
+.logo, a:link {
+  font-weight: 700;
+  color: #6070FF;
+  text-decoration: none;
 }
 
 .parent1 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 376px;
-  height: 100vh;
+  padding: 16px;
+  background: #ffffff;
+  border-radius: 16px;
+  max-width: 327px;
+  margin: auto;
+  margin-bottom: 70px;
+  font-style: normal;
   background-image: url(./elements/bglmnt.png);
   background-repeat: no-repeat;
 }
 
 .space {
-  height: 100px;
+  height: 60px;
 }
 
 .art1 {
   color: #172b4d;
   width: 327px;
-  height: 150px;
-  font-family: 'Poppins', sans-serif;
   font-weight: bold;
   font-style: normal;
+  margin: auto;
   font-size: 30px;
-  line-height: 52px;
-  top: 144px;
-  left: 24px;
-  bottom: 0;
 }
 
 .art2 {
   color: #344563;
   width: 327px;
-  height: 146px;
-  padding-top: 60px;
-  font-family: 'Poppins', sans-serif;
+  margin: auto;
   font-size: 16px;
-  line-height: 24px;
 }
 
 .social {
   align-items: flex-start;
-  padding-top: 15px;
+  padding-top: 5px;
   width: 95px;
-  height: 24px;
 }
 
 .parent2 {
@@ -73,4 +77,89 @@ header {
 
 ul {
   padding-inline-start: 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+  background: #ffffff;
+  border: 1px solid #DFE1E6;
+  border-radius: 16px;
+  max-width: 327px;
+  margin: auto;
+  margin-bottom: 70px;
+  font-family: 'Poppins';
+  font-style: normal;
+}
+
+.prmry-txt {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 295px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 32px;
+  color: #172B4D;
+}
+
+.clnt {
+  font-weight: 600;
+  font-size: 13px;
+  color: #344563;
+}
+
+.role,.year {
+  font-weight: 600;
+  font-size: 13px;
+  color: #7a869a;  
+}
+
+.crdtxt {
+  font-weight: 400;
+  font-size: 15px;
+  color: #344563;
+}
+
+.tags {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 205px;
+  padding: 0;
+  list-style: none;
+  gap: 8px;
+}
+
+.tgs {
+  background: #d1d1e5;
+  border-radius: 8px;
+  padding: 4px 12px;
+  color: #6070ff;
+}
+
+.actn {
+  width: 295px;
+}
+
+.prjctbtn {
+  /* button */
+  display: flex;
+  align-items: center;
+  border: 2px solid #396df2;
+  border-radius: 10px;
+  padding: 8px 16px;
+}
+
+.btntxt {
+  /* font */
+  font-weight: 500;
+  font-size: 17px;
+  color: #396DF2;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
