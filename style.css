@@ -151,6 +151,15 @@ ul {
   padding: 8px 16px;
 }
 
+.prjctbtn:hover {
+  background: #396DF2;
+
+}
+
+.btntxt:hover {
+  color: #ffffff;
+}
+
 .btntxt {
   /* font */
   font-weight: 500;
