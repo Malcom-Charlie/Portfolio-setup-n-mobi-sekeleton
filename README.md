@@ -1,11 +1,11 @@
-# Portfolio-setup-n-mobi-sekeleton
-This is my second project at microverse
+# Mobile Version
+This is my Third project at microverse
 > Objectives
 Learn how to:
 - Parse Figma designs to create UI.
 - Use flexbox to place elements on page.
+- Use CSS Grid to placeelement in the page.
 - Build a personal portfolio site.
-- Use images and backgrounds to enhance the look of website.
 
 ## Built with
 - Html
@@ -16,6 +16,7 @@ To get a local copy up and running follow these steps
 
 ## PreRequisites
 - Have git installed.
+- Have reliable internet.
 
 ## Setup
 - open git bash.
@@ -29,6 +30,7 @@ To get a local copy up and running follow these steps
 - file with project elements attached
 - microverse linters used
 - git ignore file present
+- icons and fonts applied direct from intenet
 
 ## Author
 - Github: [@simple_malcom](https://github.com/Malcom-Charlie)
@@ -36,6 +38,7 @@ To get a local copy up and running follow these steps
 
 ## Acknowledgement
 - Figma team for a beautiful easy to use website
+- W3 schools for amaizing easy to navigate content
 
 ## 📝 License
 
