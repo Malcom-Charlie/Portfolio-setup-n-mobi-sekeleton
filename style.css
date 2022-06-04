@@ -22,9 +22,9 @@ header {
   margin: auto;
 }
 
-.logo, a:link {
+.logo a:link {
   font-weight: 700;
-  color: #6070FF;
+  color: #6070ff;
   text-decoration: none;
 }
 
@@ -33,7 +33,7 @@ header {
   flex-direction: column;
   align-items: flex-start;
   padding: 16px;
-  background: #ffffff;
+  background: #fff;
   border-radius: 16px;
   max-width: 327px;
   margin: auto;
@@ -63,7 +63,7 @@ header {
 
 .ltscnct {
   font-weight: 500;
-  color: #7F8CFF;
+  color: #7F8cff;
 }
 
 .parent2 {
@@ -87,8 +87,8 @@ ul {
   flex-direction: column;
   align-items: flex-start;
   padding: 16px;
-  background: #ffffff;
-  border: 1px solid #DFE1E6;
+  background: #fff;
+  border: 1px solid #dfe1e6;
   border-radius: 16px;
   max-width: 327px;
   margin: auto;
@@ -105,7 +105,7 @@ ul {
 .title {
   font-weight: 700;
   font-size: 32px;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .clnt {
@@ -114,10 +114,10 @@ ul {
   color: #344563;
 }
 
-.role,.year {
+.role .year {
   font-weight: 600;
   font-size: 13px;
-  color: #7a869a;  
+  color: #7a869a;
 }
 
 .crdtxt {
@@ -157,21 +157,20 @@ ul {
 }
 
 .prjctbtn:hover {
-  background: #396DF2;
-
-}
-
-.btntxt:hover {
-  color: #ffffff;
+  background: #396df2;
 }
 
 .btntxt {
   /* font */
   font-weight: 500;
   font-size: 17px;
-  color: #396DF2;
+  color: #396df2;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+.btntxt:hover {
+  color: #fff;
 }
 
 .about {
@@ -188,32 +187,31 @@ ul {
   list-style: none;
   display: flex;
   flex-direction: column;
-  /* border: 1px solid black; */
   width: 327px;
   margin-top: 30px;
   padding: 0;
   align-items: flex-start;
 }
 
-.ctgry, .ctgryz {
+.ctgry .ctgryz {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   width: 327px;
-  border-bottom: 2px solid#DFE1E6;
+  border-bottom: 2px solid #dfe1e6;
   padding: 8px 16px;
   margin: 10px 2px;
 }
 
 .ctgryz {
-  border: #ffffff;
+  border: #fff;
 }
 
 .ctgry2 {
   font-weight: 500;
   font-size: 20px;
-  color: #000000;
+  color: #000;
 }
 
 .ctgry3 {
@@ -226,7 +224,7 @@ ul {
 .icn {
   display: flex;
   flex-direction: row;
-  background: #F7F7F9;
+  background: #f7f7f9;
   border-radius: 8px;
   align-items: center;
   width: 327px;
