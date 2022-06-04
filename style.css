@@ -63,7 +63,7 @@ header {
 
 .ltscnct {
   font-weight: 500;
-  color: #7F8cff;
+  color: #7f8cff;
 }
 
 .parent2 {
@@ -193,6 +193,10 @@ ul {
   align-items: flex-start;
 }
 
+.ctgryz {
+  border: #fff;
+}
+
 .ctgry .ctgryz {
   display: flex;
   flex-direction: row;
@@ -202,10 +206,6 @@ ul {
   border-bottom: 2px solid #dfe1e6;
   padding: 8px 16px;
   margin: 10px 2px;
-}
-
-.ctgryz {
-  border: #fff;
 }
 
 .ctgry2 {
