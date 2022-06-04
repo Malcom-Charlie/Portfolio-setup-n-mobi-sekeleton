@@ -37,6 +37,7 @@ header {
   border-radius: 16px;
   max-width: 327px;
   margin: auto;
+  box-sizing: content-box;
   margin-bottom: 70px;
   background-image: url(./elements/bglmnt.png);
   background-repeat: no-repeat;
